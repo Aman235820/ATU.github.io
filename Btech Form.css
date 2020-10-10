@@ -1,0 +1,209 @@
+body{
+	padding:20px;
+	margin-left: 185px;
+}
+#name{
+	color:cyan;                    
+	text-align: center;
+	border: lime 12px;
+	border-style: double dashed double dashed;
+	border-radius: 30px;
+	background-color: black;
+	font-style: normal;
+	font-size: 80px;
+	margin: 80px;
+	padding: 50px;
+}
+a.engg:link{
+	color:red;
+	text-decoration: none;
+}
+a.engg:hover{
+	color:green;
+	text-decoration: underline;
+}
+.box1{
+	font-size:20px;
+	word-spacing: 5px;
+	text-align:justify; 
+	border-style: ridge; 
+	border-color: lime;
+	border-width: 10px;
+	border-radius: 15px;
+	padding: 20px;
+}
+.box2{
+	text-align:justify;
+	color: azure;
+	font-family: cursive;
+	font-weight: 400;
+	font-size: 20px;
+	background-color: black;
+	background-image: url("images/engineering.jpg");
+    background-repeat: no-repeat; 
+	border: groove aqua 10px;
+	border-radius: 15px; 
+	padding: 10px;
+}
+.box2 h1{
+	text-indent: 15%;
+	color: silver;
+}
+ul.a{
+	list-style-image:url("images/chkbx.png"); 
+	font-size:20px;
+}
+.a li:nth-child(even){
+	color: blue;
+}
+.a li:nth-child(odd){
+	color: red;
+}
+.nirf{
+	background-image: url("images/nirf.png");
+	padding: 20px;
+	background-position: fixed; 
+	margin:10px;
+	margin-bottom: 80px; 
+}
+table{
+   border: solid 4px;
+   background-color: white;
+}
+th,td{
+	border: solid 2px greenyellow;
+	padding: 10px;
+	text-align: center;
+}
+tr:hover{
+	background-color: fuchsia;
+	color: blue;
+	font-size:20px;
+}
+.button{
+	background-color:black;
+	font-size:20px;
+	color: white;
+	padding:5px;
+	width: 20%;
+	height: 40px;
+	border-style: outset;
+}
+.button:hover{
+	background-color: red;
+	font-size: 25px;
+	text-decoration: underline;
+}
+.fixed{
+	background-color: transparent;
+	width: 5%;
+	padding:5px;
+	position:fixed;
+	top:450px;
+	right:0px;
+}
+div[style="background-color: pink"]{
+	border: deeppink solid 8px;
+	border-radius: 6px;
+	margin-bottom: 50px;
+}
+#form1 h3{
+    font-family: fantasy;
+    color:indigo;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.form label,.form2 div:nth-of-type(n){
+	font-size:20px;
+	padding: 10px;
+}
+.form input[type],.form textarea{
+	border: indigo ridge 2px;
+	border-radius: 6px;
+	width:35%;
+	font-size: 20px;
+	font-family: cursive;
+	padding: 5px;
+}
+.select{
+	font-size: 20px;
+	padding: 20px;
+}
+.form2{
+	background-image: url("images/abs.jpg");
+	background-repeat: no-repeat;
+	background-position:center;
+	color:chartreuse;
+}
+.form2 div:nth-of-type(n){
+	background-color: transparent;
+	margin-left: 30px;
+	font-size: 26px;
+	font-family: cursive;
+	padding: 10px;
+}
+.form2 input[type]{
+	border-style:none none solid none;
+	background-color: transparent;
+	border-color:chartreuse; 
+	color: cyan;
+	font-size: 20px;
+	font-family: cursive;
+	padding: 5px;
+}
+.nav{
+			position:fixed;
+			top: 0px;
+			right: 0px;
+			left: 0px;
+			background-color:mistyrose;
+			height: 40px;
+			padding: 15px;
+		 	margin-top: 10px;
+		 	z-index: 1;
+		}
+		 .nav a:link{
+		 	color:blue;
+		 	 text-decoration:none;
+		 	font-size: 22px;
+		 	padding: 15px;
+		 	margin-top: 25px;
+		 }
+		 .nav a:hover{
+            color: red;
+            text-decoration:none;
+            font-size: 23px;
+            border-radius:6px;
+            background-color:lime;
+            margin: 10px;
+		 }
+		 .ul-nav{
+		 	display:inline-flex
+		 }
+
+.fr2{
+           position: fixed;
+           left: 0px;
+           top:0px;
+           bottom: 0px;
+           margin-top: 10px;
+           padding: 10px; 
+           background-image:url("images/abss.jpg");
+           background-size: 400px 1000px;
+           background-repeat: no-repeat;
+           background-position: center top;
+		}
+		.fr2 .boss{
+			
+			margin-top:35px;
+            margin-left: -1px;
+            width:85%;
+
+			border:  blue dashed 8px;
+			border-radius: 5px;
+		}
+		.fr2 a:hover{ 
+			       font-size:14px;
+                   font-weight: 400;
+                   color:red;
+		         }
